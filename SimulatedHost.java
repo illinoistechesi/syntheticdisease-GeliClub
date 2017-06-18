@@ -4,7 +4,8 @@ public class SimulatedHost {
     
     public static void main(String[] args) {
         int initialEnergy = 100;
-        DiseaseBlueprint dd = new YourDisease();
+        DiseaseBlueprint dd = new JavatarVirus();
+        //DiseaseBlueprint dd = new YourDisease();
         //DiseaseBlueprint dd = new DeltaDisease();
         //DiseaseBlueprint dd = new GammaDisease();
         SimulatedHost host = new SimulatedHost(AgeGroup.ADULT, initialEnergy);
