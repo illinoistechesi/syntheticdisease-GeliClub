@@ -66,7 +66,6 @@ class JavatarVirus extends DiseaseBlueprint {
                 action = DiseaseAction.EXIT;
             }
         }
-        
         // The goal is to balance multiply, exit, and release so that the bacteria's life is near
         // but not greater than its maximum number of days of survival in the host
         
